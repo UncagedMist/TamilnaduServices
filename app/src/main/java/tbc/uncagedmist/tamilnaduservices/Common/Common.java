@@ -36,15 +36,16 @@ public class Common {
 
     public static final String WIN_URL = "https://894.win.qureka.com";
 
-    public static final String PRIVACY_URL = "https://docs.google.com/document/d/1h1ePmrfhM7mXCe_ctRi2w7IXRmrpWL6S1LYJ8-YpOfA/edit?usp=sharing";
+    public static final String PRIVACY_URL =
+            "https://docs.google.com/document/d/10j_zSXwh2mhKt1ZiXAvPMqc01CDFTRMooAwb4DtgRf0/edit?usp=sharing";
 
     public static String CurrentURL;
 
     public static void shareApp(Context context)    {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
-        String message = "Never Miss A Thing About Ration Card. Install Bihar Ration Card App and Stay Updated! \n https://play.google.com/store/apps/details?id=tbc.uncagedmist.biharration";
+        String message = "Never Miss A Thing About Ration Card. Install Tamilnadu Ration Card App and Stay Updated! \n https://play.google.com/store/apps/details?id=tbc.uncagedmist.tamilnaduservices";
         intent.putExtra(Intent.EXTRA_TEXT, message);
-        context.startActivity(Intent.createChooser(intent, "Share Bihar Ration Card App Using"));
+        context.startActivity(Intent.createChooser(intent, "Share Tamilnadu Ration Card App Using"));
     }
 }

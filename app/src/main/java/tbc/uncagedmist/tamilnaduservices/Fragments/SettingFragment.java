@@ -144,7 +144,7 @@ public class SettingFragment extends Fragment {
         cardRate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=tbc.uncagedmist.biharration")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=tbc.uncagedmist.tamilnaduservices")));
             }
         });
 

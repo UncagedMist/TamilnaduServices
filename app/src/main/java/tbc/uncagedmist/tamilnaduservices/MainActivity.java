@@ -11,6 +11,7 @@ import androidx.fragment.app.FragmentManager;
 import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
@@ -28,6 +29,13 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.appupdate.AppUpdateManager;
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory;
+import com.google.android.play.core.install.model.AppUpdateType;
+import com.google.android.play.core.install.model.UpdateAvailability;
+import com.google.android.play.core.tasks.OnSuccessListener;
+import com.google.android.play.core.tasks.Task;
 import com.ironsource.adapters.supersonicads.SupersonicConfig;
 import com.ironsource.mediationsdk.ISBannerSize;
 import com.ironsource.mediationsdk.IronSource;
@@ -88,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
             window.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
                     WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
+
+        checkAppUpdate();
 
         IronSource.init(
                 this,
@@ -238,5 +248,28 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+    private void checkAppUpdate() {
+        final AppUpdateManager appUpdateManager = AppUpdateManagerFactory.create(MainActivity.this);
+        Task<AppUpdateInfo> appUpdateInfoTask = appUpdateManager.getAppUpdateInfo();
+
+        appUpdateInfoTask.addOnSuccessListener(new OnSuccessListener<AppUpdateInfo>() {
+            @Override
+            public void onSuccess(AppUpdateInfo result) {
+
+                if (result.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE &&
+                        result.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE))    {
+
+                    try {
+                        appUpdateManager.startUpdateFlowForResult(
+                                result,AppUpdateType.IMMEDIATE,
+                                MainActivity.this,
+                                PERMISSION_REQUEST_CODE);
+                    } catch (IntentSender.SendIntentException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        });
+    }
 
 }
