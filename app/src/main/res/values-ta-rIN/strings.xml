@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">தமிழ்நாடு சேவைகள்</string>
+
+    <string name="rationCard">ரேஷன் கார்டு</string>
+    <string name="voterCard">வாக்காளர் அடையாளம்</string>
+    <string name="aawaasList">PM ஆவாஸ் யோஜ்னா பட்டியல்</string>
+
+    <string name="changeLang">மொழியை மாற்று</string>
+
+    <string name="applyRation">புதிய ஸ்மார்ட் கார்டைப் பயன்படுத்துங்கள்</string>
+    <string name="checkRation">ஸ்மார்ட் கார்டு நிலை</string>
+    <string name="duplicateRation">ஸ்மார்ட் கார்டை மீண்டும் அச்சிடவும்</string>
+    <string name="dupStatusRation">மறுபதிப்பு நிலை</string>
+    <string name="addMemberRation">உறுப்பினரைச் சேர்க்கவும்</string>
+    <string name="changeAddressRation">முகவரி மாற்றம்</string>
+    <string name="changeHeadRation">குடும்பத் தலைவர் மாற்றம்</string>
+    <string name="removeRation">குடும்ப உறுப்பினரை நீக்கவும்</string>
+    <string name="convertRation">உங்கள் அட்டையை மாற்றவும்</string>
+    <string name="serviceRation">அட்டை தொடர்பான சேவைகளின் நிலை</string>
+    <string name="nfsaReportRation">NFSA அறிக்கை</string>
+    <string name="pdsReportRation">பிடிஎஸ் அறிக்கைகள்</string>
+    <string name="departmentLoginRation">துறை சார்ந்த உள்நுழைவு</string>
+    <string name="complaintRation">ஒரு புகாரைப் பதிவு செய்யவும்</string>
+
+    <string name="applyOnline">ஆன்லைனில் விண்ணப்பிக்க</string>
+    <string name="downloadVoter">வாக்காளர் அட்டையைப் பதிவிறக்கவும்</string>
+    <string name="editVoter">வாக்காளர் அட்டையைத் திருத்தவும்</string>
+    <string name="searchVoter">வாக்காளரைத் தேடுங்கள்</string>
+    <string name="trackApp">டிராக் விண்ணப்பம்</string>
+    <string name="reprint">வாக்காளர் அட்டை மறுபதிப்பு</string>
+    <string name="voterOfficial">வாக்காளர் அட்டை சேவைகள்</string>
+
+    <string name="beneficiaryList">பயனாளிகள் பட்டியல்</string>
+    <string name="awasList">புதிய ஆவாஸ் பட்டியல்</string>
+    <string name="searchBeneficiary">பயனாளியைத் தேடுங்கள்</string>
+
+    <string name="IS_APP_KEY">10c1e9a0d</string>
+
+</resources>

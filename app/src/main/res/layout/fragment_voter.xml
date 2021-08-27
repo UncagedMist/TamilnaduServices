@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb067"
+    tools:context=".Fragments.VoterFragment">
+
+    <ScrollView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnApply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/applyOnline"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_bg"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/downloadVoter"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_bg"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/editVoter"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_bg"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/searchVoter"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/button_bg" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnTrack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trackApp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/button_bg" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnReprint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reprint"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/button_bg" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/btnOfficial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/voterOfficial"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/button_bg" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBack"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+        android:backgroundTint="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

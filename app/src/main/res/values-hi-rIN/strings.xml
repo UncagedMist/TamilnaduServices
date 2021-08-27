@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">तमिलनाडु सेवा</string>
+
+    <string name="rationCard">राशन कार्ड</string>
+    <string name="voterCard">मतदाता पहचान पत्र</string>
+    <string name="aawaasList">पीएम आवास योजना सूची</string>
+
+    <string name="changeLang">भाषा का चयन करें</string>
+
+    <string name="applyRation">नया स्मार्ट कार्ड लागू करें</string>
+    <string name="checkRation">स्मार्ट कार्ड की स्थिति</string>
+    <string name="duplicateRation">स्मार्ट कार्ड का पुनर्मुद्रण</string>
+    <string name="dupStatusRation">पुनर्मुद्रण स्थिति</string>
+    <string name="addMemberRation">सदस्य जोड़ें</string>
+    <string name="changeAddressRation">पते में बदलाव</string>
+    <string name="changeHeadRation">परिवार का मुखिया परिवर्तन</string>
+    <string name="removeRation">परिवार के सदस्य को हटा दें</string>
+    <string name="convertRation">अपना कार्ड कन्वर्ट करें</string>
+    <string name="serviceRation">कार्ड संबंधित सेवाओं की स्थिति</string>
+    <string name="nfsaReportRation">एनएफएसए रिपोर्ट</string>
+    <string name="pdsReportRation">पीडीएस रिपोर्ट</string>
+    <string name="departmentLoginRation">विभागीय लॉगिन</string>
+    <string name="complaintRation">शिकायत दर्ज करना</string>
+
+    <string name="applyOnline">ऑनलाइन आवेदन</string>
+    <string name="downloadVoter">मतदाता कार्ड डाउनलोड करें</string>
+    <string name="editVoter">मतदाता कार्ड संपादित करें</string>
+    <string name="searchVoter">मतदाता खोजें</string>
+    <string name="trackApp">आवेदन की स्थिति</string>
+    <string name="reprint">मतदाता कार्ड पुनर्मुद्रण</string>
+    <string name="voterOfficial">मतदाता कार्ड सेवाएँ</string>
+
+    <string name="beneficiaryList">लाभार्थी सूची</string>
+    <string name="awasList">नई अवास सूची</string>
+    <string name="searchBeneficiary">लाभार्थी खोजें</string>
+
+    <string name="IS_APP_KEY">10c1e9a0d</string>
+</resources>

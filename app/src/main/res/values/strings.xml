@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Tamilnadu Services</string>
+
+    <string name="rationCard">Ration Card</string>
+    <string name="voterCard">Voter Identity</string>
+    <string name="aawaasList">PM Awas Yojna List</string>
+
+    <string name="changeLang">Change Language</string>
+
+    <string name="applyRation">Apply New Smart Card</string>
+    <string name="checkRation">Smart Card Status</string>
+    <string name="duplicateRation">Reprint Smart Card</string>
+    <string name="dupStatusRation">Reprint Status</string>
+    <string name="addMemberRation">Add Member</string>
+    <string name="changeAddressRation">Change of Address</string>
+    <string name="changeHeadRation">Family Head Change</string>
+    <string name="removeRation">Remove Family Member</string>
+    <string name="convertRation">Convert your Card</string>
+    <string name="serviceRation">Card Related Services Status</string>
+    <string name="nfsaReportRation">NFSA Report</string>
+    <string name="pdsReportRation">PDS Reports</string>
+    <string name="departmentLoginRation">Departmental Login</string>
+    <string name="complaintRation">Register A Complaint</string>
+
+    <string name="applyOnline">Apply Online</string>
+    <string name="downloadVoter">Download Voter Card</string>
+    <string name="editVoter">Edit Voter Card</string>
+    <string name="searchVoter">Search Voter</string>
+    <string name="trackApp">Track Application</string>
+    <string name="reprint">Voter Card Reprint</string>
+    <string name="voterOfficial">Voter Card Services</string>
+
+    <string name="beneficiaryList">Beneficiary List</string>
+    <string name="awasList">New Awas List</string>
+    <string name="searchBeneficiary">Search Beneficiary</string>
+
+    <string name="IS_APP_KEY">10c1e9a0d</string>
+
+</resources>
