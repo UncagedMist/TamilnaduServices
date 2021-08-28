@@ -34,6 +34,8 @@
     <string name="awasList">New Awas List</string>
     <string name="searchBeneficiary">Search Beneficiary</string>
 
+    <string name="ADMOB_APP_ID">ca-app-pub-7920815986886474~6961869995</string>
+
     <string name="IS_APP_KEY">10c1e9a0d</string>
 
 </resources>

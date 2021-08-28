@@ -35,5 +35,7 @@
     <string name="awasList">नई अवास सूची</string>
     <string name="searchBeneficiary">लाभार्थी खोजें</string>
 
+    <string name="ADMOB_APP_ID">ca-app-pub-7920815986886474~6961869995</string>
+
     <string name="IS_APP_KEY">10c1e9a0d</string>
 </resources>

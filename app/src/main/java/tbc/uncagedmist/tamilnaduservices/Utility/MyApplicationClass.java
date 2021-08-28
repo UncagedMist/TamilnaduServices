@@ -32,11 +32,12 @@ public class MyApplicationClass extends Application {
         return context;
     }
 
-
     @Override
     public void onCreate() {
         super.onCreate();
         context = getApplicationContext();
+
+        IronSource.setMetaData("Facebook_IS_CacheFlag","IMAGE");
 
         registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
             @Override
